@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+  background-color: #fff;
+  color: rgb(228, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0; 
+}
+#menu{
+    background-color:#1abc9c;
+}
+ul#menu {
+  width: 200px;
+  height: 100%;
+  position: fixed; /* change to 'absolute' if you don't want it "sticky" */
+  top: 10;
+  left: 5;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+ul#menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 10.5px 11px;
+  background-color: #1abc9c;
+  display: block;
+}
+ul#menu li a:hover, ul#menu li a.active {
+  background-color: white;
+  font-size: 18px;
+  color:#1abc9c;
+}
+#p1{
+  color:red;
+}
+#li{
+    position: fixed;
+    margin-top:150px;
+    margin-left:15px;
+    color:white;
+    padding:8px 35px 8px 35px;
+    border:2px solid white;
+}
+#li:hover{
+
+    background-color:white;
+    color:#1abc9c;
+}
+#li1{
+  position:absolute;
+  margin-top:2vh;
+  color:white;
+  padding:8px 35px 8px 35px;
+  border:2px solid white;
+}
+
+@media only screen and (max-width:768px){
+  body{
+    margin:0;
+    padding:0;
+  }
+.vnav{
+ display:none;
+}
+
+.frame .if1{
+  
+  position:absolute;
+  left:-40%;
+ height:100%;
+ overflow-y: scroll;
+}
+
+
+}
